@@ -5,3 +5,13 @@ body.dark-mode {
     color:#0e0e0e;
 }
 
+#blogContent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.blogData {
+    flex: 0 0 calc(50% - 10px)
+    
+}

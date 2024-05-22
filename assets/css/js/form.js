@@ -1,7 +1,7 @@
 //Handle form submission & local storage
-const blogData = JSON.parse(localStorage.getItem('blogData')) || [];
+const blogContent = JSON.parse(localStorage.getItem('blogContent')) || [];
 
-document.getElementById('blogForm').addEventListener('submit', function(event) {
+document.getElementById('blogContent').addEventListener('submit', function(event) {
     event.preventDefault();
 
     var username= document.getElementById('username').value;
@@ -14,7 +14,7 @@ document.getElementById('blogForm').addEventListener('submit', function(event) {
         alert('All fields are required!');
     }
     //push the new post to the blogData array
-    blogData.push(blogPost);
+    blogContent.push(blogPost);
 
     //store blog post in localStorage
     localStorage.setItem('blogPost', JSON.stringify(blogPost));
