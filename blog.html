@@ -9,17 +9,19 @@
     <title>Blog Page</title>
 </head>
 <body>
-    <h1>Blog Page</h1>
+    <div class = "title-container">
+    <h1 id ="Blog Page">Blog Page</h1>
+    <button onclick="window.location.href='index.html'">Back</button>
+   </div>
     
     <h2 id="title"></h2>
     <h3 id = "username"></h3>
     <p id = "content"></p>
 
-
-    <button onclick="window.location.href='index.html'">Go back to Home Page</button>
-    <button id="dark-mode-toggle">Toggle Dark Mode </button>
+<div class="footer-container">   
+    <button id="toggle-theme">Toggle Dark Mode </button>
     
-    
+</div>
     <div id="blogContent">
         <script src="./assets\css/js/blog.js"></script>
         <script src="./assets\css/js/logic.js"></script>

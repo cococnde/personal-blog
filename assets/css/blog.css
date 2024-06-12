@@ -1,5 +1,49 @@
 /*add light/dark toggle mode  here*/
 
+.title-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    border-style: double;
+}
+
+h1{
+    display: flex;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    border-style: double;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h3 {
+    border-style: double;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+button {
+    padding: 10px;
+    border-radius: 5px;
+    width: 100px;
+    border: none;
+    margin-right: 20px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+
 body.dark-mode {
     background-color: #2b2b2b;
     color:#0e0e0e;
@@ -11,7 +55,32 @@ body.dark-mode {
     justify-content: space-between;
 }
 
-.blogData {
-    flex: 0 0 calc(50% - 10px)
-    
+p {
+    flex: 0 0 calc(50% - 10px);
+    border: double 4px;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.footer-container {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #f8f9fa;
+}
+#toggle-theme {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    width: 250px;
+    height: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
